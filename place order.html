@@ -120,7 +120,8 @@
       <input type="checkbox" value="pomogranate" name="promogrante">pomogranate<input type="text" id="promogrante" name="entry.1129033720">
     </label>
     <label class="checkbox-inline">
-      <input type="checkbox" value="blueberry" name="blueberry">blueberry<input type="text" id="blueberry" name="entry.1282616492"></div>
+      <input type="checkbox" value="blueberry" name="blueberry">blueberry<input type="text" id="blueberry" name="entry.1282616492"> <br>
+      <input type="checkbox" name="">coconut<input type="text" name="entry.273227491" id="coconut"></div>
       <hr>
     </label><br><br>
     <center><input type="checkbox"  required="please go through our rule"> <a href="rules.html">this order is done from all rules and regulation</a></center>
@@ -156,6 +157,7 @@ function postToGoogle() {
                  var field14= $("#promogrante").val();
                 
                  var field15= $("#blueberry").val();
+                 var field16= $("#coconut").val();
                 
                 
                 
@@ -183,7 +185,7 @@ function postToGoogle() {
   
                 $.ajax({
                     url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSf-rR6oA-GpEnm87pX6gkzT000UwmFptKjlqtyBrjpOZQvENQ/formResponse",
-          data: {"entry.108434410": field1, "entry.298366658": field2, "entry.188701767": field3, "entry.1457915949": field4,"entry.1004740384":field5,"entry.1818932139":field6,"entry.1992118352":field7,"entry.760041435":field8,"entry.1063320144":field9,"entry.1437699241":field10,"entry.1715401106":field11,"entry.120776746":field12,"entry.594659995":field13,"entry.1129033720":field14,"entry.1282616492":field15},
+          data: {"entry.108434410": field1, "entry.298366658": field2, "entry.188701767": field3, "entry.1457915949": field4,"entry.1004740384":field5,"entry.1818932139":field6,"entry.1992118352":field7,"entry.760041435":field8,"entry.1063320144":field9,"entry.1437699241":field10,"entry.1715401106":field11,"entry.120776746":field12,"entry.594659995":field13,"entry.1129033720":field14,"entry.1282616492":field15,"entry.273227491":field16},
                     type: "POST",
                     dataType: "xml",
                     success: function(d)
