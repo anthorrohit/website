@@ -259,13 +259,15 @@ box-shadow: 3px 3px 6px black;*/
 }
 textarea {
    resize: none;
+   width: 250px;
+   height: auto;
 }
 .submit{
 	border-radius: 6px;
 	background-color: #734ae8;
 background-image: linear-gradient(315deg, #734ae8 0%, #89d4cf 74%);
 }
-.rohu2{
+.rohu{
   margin-left: 5px;
  
 }
