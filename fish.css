@@ -24,8 +24,10 @@ a{
 h3{
 	color: black;
 }
-textarea{
-resize: none;
+textarea {
+   resize: none;
+   width: 250px;
+   height: auto;
 }
 
 

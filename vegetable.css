@@ -22,8 +22,10 @@ form{
   background-color: transparent;
 
 }
-textarea{
-resize: none;
+textarea {
+   resize: none;
+   width: 250px;
+   height: auto;
 }
 form.h2{
   text-shadow: 1px 1px 2px white;
