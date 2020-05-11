@@ -139,6 +139,7 @@ font-size:25px;
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
+  scroll-behavior: smooth;
 }
 
 #myBtn:hover {
