@@ -257,6 +257,9 @@ align-items: center;
 /*border-radius: 6px;
 box-shadow: 3px 3px 6px black;*/
 }
+textarea {
+   resize: none;
+}
 .submit{
 	border-radius: 6px;
 	background-color: #734ae8;
