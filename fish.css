@@ -24,7 +24,9 @@ a{
 h3{
 	color: black;
 }
-
+textarea{
+resize: none;
+}
 
 
 
