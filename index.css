@@ -68,7 +68,7 @@ background-repeat: no-repeat;
   font-size: 20px;
  font-family: 'Staatliches', cursive;
 	text-shadow: 1px 1px 2px black;
-	color: rgb(22, 219, 107);
+	color: rgb(134, 59, 255);
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -354,5 +354,5 @@ background-image: linear-gradient(315deg, #734ae8 0%, #89d4cf 74%);
   text-align: center;
  }
 .navbar-brand{
-  text-align: center;align-items: center;
+  text-align: center !important;align-items: center!important;
  }
