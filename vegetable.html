@@ -60,7 +60,7 @@
 <div class="container">
   <h2>order sheet</h2>
   <p>fill all the cols correctly</p>
-  <form id="form" target="_self" onsubmit="return postToGoogle();" action="" autocomplete="off">
+  <form id="form" target="_self" onsubmit="return postToGoogle();" action="" autocomplete="off" align="center">
     <label>name</label>
     <br>
 
@@ -74,42 +74,42 @@
   <br>
    <h2>vegetables</h2>
   <p>click on the checkboxes to order product . and write the weight in the next colomns:</p>
-    <label class="checkbox-inline">
+    <label class="checkbox">
       <input type="checkbox" value=""> WHITE POTATO<input type="text" value="" id="v1">
-    </label>
-    <label class="checkbox-inline">
+    </label><br><br>
+    <label class="checkbox">
       <input type="checkbox" value="">ONION<input type="text" value="" id="v2">
-    </label>
-    <label class="checkbox-inline">
+    </label><br>
+    <label class="checkbox">
       <input type="checkbox" value="">BRINGAL <input type="text" value="" id="v3">
-    </label><br><br>
-    <label class="checkbox-inline">
+    </label><br>
+    <label class="checkbox">
       <input type="checkbox" value="">SEHJAN<input type="text" value="" id="v4">
-    </label>
-    <label class="checkbox-inline">
+    </label><br><br>
+    <label class="checkbox">
       <input type="checkbox" value="">LEMON<input type="text" value="" id="v5">
-    </label>
-    <label class="checkbox-inline">
+    </label><br>
+    <label class="checkbox">
       <input type="checkbox" value="">BEAN<input type="text" value="" id="v6">
-    </label><br><br>
-     <label class="checkbox-inline">
+    </label><br>
+     <label class="checkbox">
       <input type="checkbox" value="">RADDISH<input type="text" value="" id="v7">
-    </label>
-    <label class="checkbox-inline">
-      <input type="checkbox" value="">RED POTATO<input type="text" value=""id="v8">
-    </label>
-    <label class="checkbox-inline">
-      <input type="checkbox" value="">BEETROOT<input type="text" value="" id="v9">
     </label><br><br>
-    <label class="checkbox-inline">
+    <label class="checkbox">
+      <input type="checkbox" value="">RED POTATO<input type="text" value=""id="v8">
+    </label><br>
+    <label class="checkbox">
+      <input type="checkbox" value="">BEETROOT<input type="text" value="" id="v9">
+    </label><br>
+    <label class="checkbox">
       <input type="checkbox" value="">LADY FINGER<input type="text" value="" id="v10">
-    </label>
-    <label class="checkbox-inline">
+    </label><br>
+    <label class="checkbox">
       <input type="checkbox" value="">BOTTLE GOURD<input type="text" value="" id="v11">
-    </label>
-    <label class="checkbox-inline">
+    </label><br>
+    <label class="checkbox">
       <input type="checkbox" value="">BITTER GOURD<input type="text" value="" id="v12">
-      </label>
+      </label><br>
      
       <hr>
     <center><input type="checkbox" name="" required> <a href="rules.html">this order is done from all rules and regulation</a></center>
@@ -172,8 +172,8 @@ function postToGoogle() {
         
   
                 $.ajax({
-                    url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdgxJJG-xYtSutn9_Eyyxp--tbQyOLZoLziGkxh9MetuJBhng/formResponse",
-          data: {"entry.1961647595": field1, "entry.1101492223": field2, "entry.719845977": field3, "entry.246547224": field4,"entry.282383039":field5,"entry.1353104893":field6,"entry.218472935":field7,"863277492":field8,"entry.985464332":field9,"entry.2128120997":field10,"entry.220302022":field11,"entry.1898695258":field12,"entry.2111170600":field13,"entry.402440624":field14,"entry.291347280":field15},
+                    url: "https://docs.google.com/forms/u/2/d/e/1FAIpQLSdYeHu8tjGBN8A8rQGTt9-a24e4-F1dQnAyLZlWhqZKCHAjOg/formResponse",
+          data: {"entry.647792081": field1, "entry.1852795007": field2, "entry.1451364733": field3, "entry.1076543201": field4,"entry.386161232":field5,"entry.1110361473":field6,"entry.133587501":field7,"entry.1240638888":field8,"entry.1386811482":field9,"entry.2063883436":field10,"entry.1891050872":field11,"entry.1826655499":field12,"entry.97442785":field13,"entry.895869153":field14,"entry.210058480":field15},
                     type: "POST",
                     dataType: "xml",
                     success: function(d)
