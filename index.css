@@ -1,0 +1,443 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+@-ms-viewport{
+  width: device-width;
+  font-weight: 500;
+  
+  }
+  
+  .patna{
+    color: white;
+    margin:5px 5px;
+  }
+
+
+
+}
+ body{
+  text-transform: uppercase;
+   font-family: 'Balsamiq Sans', cursive;
+ 	/*background: url('bg.jpg');*/
+ 	background-size:100%;
+ 	opacity: 1000%;
+ 	/*background-color: skyblue ;*/
+ 	background-position:fixed;
+ 	 right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  clip-path: polygon(100%,0,100%,75%,50%,100%,0,75%,0,0);
+background: #fc00ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background-repeat: no-repeat;
+
+ 	font-size:20px;
+
+
+
+
+
+
+ }
+ .fish{
+  /*background-color:green;*/
+  text-transform: uppercase;
+  background: rgb(22, 219, 107);
+  color:#fff;
+  font-weight:bold;
+  border-radius: 5px;
+  border-color: black;
+  box-shadow: 2px 2px 5px black;
+ margin:320px 50px 6px 168px;
+  margin-left: px;
+  text-align: center;
+  text-decoration: none;
+ }
+ #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.typewriter{
+  align-items: center;
+  font-size: 20px;
+font-family: 'Balsamiq Sans', cursive;
+	text-shadow: 1px 1px 2px black;
+	color: rgb(134, 59, 255);
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+p{ 
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 300;
+
+font-size:25px;
+
+
+ }
+ h1{
+
+ 	font-weight: 900;font-size:50px;
+ 	text-align: center;
+ 	align-items: center;
+ font-family: 'Balsamiq Sans', cursive;
+ 	text-transform: uppercase;
+ 	text-shadow: 1px 1px 2px grey;
+ 	margin-top: 31.25rem;
+ 	margin-bottom: 25rem;
+ 	padding-top: 6.25rem;
+ 	color: black;
+ 
+ }
+ .button{
+ 	text-decoration: none;
+ 	border-radius: 50px;
+ 	color:  rgb(22, 219, 107);
+ 	text-shadow: 1px 1px 2px black;
+
+
+
+
+
+ }
+ button.veggies{
+ 	background-color:green;
+ 	text-transform: uppercase;
+ }
+ #myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 50px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  scroll-behavior: smooth;
+  transform: rotate(-270deg);
+  font-weight: 600;border-radius: 50px;
+}
+button #myBtn{
+  border-radius: 50px;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+ img{
+
+width:250px;height:auto;
+margin-left:2.25rem;
+/*margin-right: .25rem;*/
+background-radius: 2px;
+border-radius:6px;
+background: black;
+frame:dotted 5px black;
+box-shadow: 2px 2px 5px black;
+transition: all ease 0.75s;
+margin-top: 50px;
+
+
+
+
+
+ }
+ img:hover{
+ 	box-shadow: 0 0 20px 0 black;
+ 	transform: translateY(-20px);
+
+
+
+
+
+ }
+ .img1{
+
+ 	margin:60px 0px 0px 30px;
+ 
+ 	text-transform: uppercase;
+ 	background: rgb(22, 219, 107);
+ 	color:#fff;
+ 	font-weight:bold;
+ 	border-radius: 5px;
+ 	border-color: black;
+ 	box-shadow: 2px 2px 5px black;
+ 	
+ }
+ .img1:hover{
+ 	box-shadow: 0 0 20px 0 black;
+ 	transform: translateY(-20px);
+ 	background-color: skyblue;
+
+
+
+
+
+ }
+ .a1{
+  
+
+margin:10px 0px 0px 120px;
+ 
+
+
+ }
+  .pine{
+
+  margin:0px 0px 0px 30px;
+ 
+  text-transform: uppercase;
+  background: rgb(22, 219, 107);
+  color:#fff;
+  font-weight:bold;
+  border-radius: 5px;
+  border-color: black;
+  box-shadow: 2px 2px 5px black;
+ 
+ }
+ 
+ .pine:hover{
+  box-shadow: 0 0 20px 0 black;
+  transform: translateY(-20px);
+  background-color: skyblue;
+
+
+
+
+ }
+ .img2{
+
+ 
+  
+  text-transform: uppercase;
+  background: rgb(22, 219, 107);
+  color:#fff;
+  font-weight:bold;
+  border-radius: 5px;
+  border-color: black;
+  box-shadow: 2px 2px 5px black;
+  margin-top: 18.75rem;
+  margin-left: 5px;
+
+ }
+ .img2:hover{
+ 	box-shadow: 0 0 20px 0 black;
+ 	transform: translateY(-20px);
+ 	background-color: skyblue;
+ 	text-decoration: none;
+
+
+
+
+
+ }
+ h6{
+ 	margin-left: 20px;
+
+ }
+ h3{
+ 	margin-left: 20px;
+ }
+ /*-----------------------------------------------------------------------------------------------------------------------------------------*/
+ #myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+form{
+	
+margin-left: 20px;
+align-items: center;
+
+/*border-radius: 6px;
+box-shadow: 3px 3px 6px black;*/
+}
+textarea {
+   resize: none;
+   width: 250px;
+   height: auto;
+}
+.submit{
+	border-radius: 6px;
+	background-color: #734ae8;
+background-image: linear-gradient(315deg, #734ae8 0%, #89d4cf 74%);
+}
+.rohu{
+  margin-left: 5px;
+ margin:100px 0px 0px 30px;
+}
+.rohu{
+
+  margin:100px 0px 0px 30px;
+ 
+  text-transform: uppercase;
+ 
+  color:#fff;
+  font-weight:bold;
+  border-radius: 5px;
+  border-color: black;
+  box-shadow: 2px 2px 5px black;
+  margin-top: 100px;
+  width: 250px;
+  height: 222px;
+ }
+ 
+ .rohu:hover{
+  box-shadow: 0 0 20px 0 black;
+  transform: translateY(-20px);
+  background-color: skyblue;
+
+
+
+
+ }
+ .change_content:after{
+  content:"";
+  animation: changetext 05s infinite linear;
+  color: rgb(66, 72, 245);
+  text-shadow: 1px 1px 2px black;
+
+
+
+
+
+
+}
+@keyframes changetext{
+  0%{content:"fresh vegetbles";}
+  50%{content:"fresh fruits";}
+  100%{content:"fresh fish";}
+
+
+
+
+
+
+.change_content:hover{
+  color: rgb(66, 72, 245);
+  font-weight: bold;
+  font-size:2* 
+}
+
+
+
+
+
+.health{margin: 1px 2px 1px 2px;
+  text-align: center;
+  
+  height: auto;
+ }
+.navbar-brand{
+  text-align: center !important;align-items: center!important;
+ }
+ .myslide img{
+ align-items: center;
+ padding: 0;
+ margin: 0;
+ width: 120.9px;
+height: 50px;
+ }
+.containe1{
+background-color: black !important;
+ }
+ .text{
+  font-weight: 200;
+  font-size: 18px;
+  margin: 20px 10px 2px 10px;text-align: center;
+ }
+a{
+    background-color: #16db6b;
+    color: white;
+    border-radius: 6px;
+   
+}
+ .lo.a{
+margin-top: 30px;
+background: lightgreen;
+ }
+ .w3-content{
+  width:  350;
+  height: 100;
+
+ }
+ .lo{
+  width:  350px;
+  height: 100px;
+
+ }
+ 
+.newsletter {
+padding: 80px 0;
+background: #19beda;
+}
+
+.newsletter .content {
+max-width: 650px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2; }
+.newsletter .content h2 {
+color: #243c4f;
+margin-bottom: 40px; }
+.newsletter .content .form-control {
+height: 50px;
+border-color: #ffffff;
+border-radius:0;
+}
+.newsletter .content.form-control:focus {
+box-shadow: none;
+border: 2px solid #243c4f;
+}
+.newsletter .content .btn {
+min-height: 50px; 
+border-radius:0;
+background: #243c4f;
+color: #fff;
+font-weight:600;
+}

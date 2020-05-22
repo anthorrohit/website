@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-transform: uppercase;
+}
+h2{
+  color:#fff;
+}
+p{
+	color: #fff;
+}
+body{
+	/*background-image: url(place orde.jpg);*/
+	 font-family: 'Staatliches', cursive;text-transform: uppercase;
+	color: white;background-size: cover;background-repeat: no-repeat;
+}
+textarea {
+   resize: none;
+   width: 250px;
+   height: auto;
+}
+form{
+	
+	text-shadow: 1px 1px 1px white;
+	text-align: center;
+	text-transform: uppercase;
+	align-items: center;
+	box-shadow: 1px 1px 5px white;
+	font-color:#fff;
+	border-radius: 5px;
+}
+.fff{
+	color: #000;
+}
+form.h2{
+	text-shadow: 1px 1px 2px white;text-shadow: 1px 1px 1px white;
+}
+.checkbox{
+	align-items: flex-start;
+	text-align: center;
+}
+/* Style the video: 100% width and height to cover the entire window */
+#/*myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}*/
