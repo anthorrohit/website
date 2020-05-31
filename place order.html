@@ -139,9 +139,36 @@ fruits e commerce india,just demand solutions fruits order">
     </label><br><br><br>
     <label class="checkbox">
       <input type="checkbox" value="blueberry" name="blueberry">blueberry<input type="text" id="blueberry" name="entry.1282616492"> <br><br><center><br><br><br><br>
-      <input type="checkbox" name="">coconut<input type="text" name="entry.273227491" id="coconut"></center></div>
+      <input type="checkbox" name="">hybrid coconut<input type="text" name="entry.273227491" id="coconut"></center></div>
       <hr>
     </label><br><br>
+   
+    <label class="checkbox">
+      <input type="checkbox" value="pear" name="lichi">pear<input type="text" id="pear">
+    </label><br><br>
+    <label class="checkbox">
+      <input type="checkbox" value="sita phal" name="lichi">sita phal<input type="text" id="sita">
+    </label><br><br>
+    <label class="checkbox">
+      <input type="checkbox" value="apple" name="lichi">apple<input type="text" id="apple">
+    </label><br><br>
+    <label class="checkbox">
+      <input type="checkbox" value="pineapple" name="lichi">pineapple<input type="text" id="pine">
+    </label><br><br>
+    <label class="checkbox">
+      <input type="checkbox" value="jamun" name="lichi">jamun<input type="text" id="jamun">
+    </label><br><br>
+    <label class="checkbox">
+      <input type="checkbox" value="coconut" name="lichi">coconut<input type="text" id="coco">
+    </label><br><br>
+    <label class="checkbox">
+      <input type="checkbox" value="coconut" name="lichi">orange<input type="text" id="orange">
+    </label><br><br>
+    
+    
+    
+    
+    
     <center><input type="checkbox"  required="please go through our rule"> <a href="rules.html">this order is done from all rules and regulation</a></center>
 	
 	<Br>
@@ -176,10 +203,13 @@ function postToGoogle() {
                 
                  var field15= $("#blueberry").val();
                  var field16= $("#coconut").val();
-                
-                
-                
-
+                 var field17= $("#pear").val();
+                var field18= $("#sita").val();
+                var field19= $("#apple").val();
+                var field20= $("#pine").val();
+                 var field21= $("#jamun").val();
+                  var field22= $("#coco").val();
+                  var field23= $("#orange").val();
         
         if(field1 == ""){
           alert('Please Fill Your Name');
@@ -203,7 +233,7 @@ function postToGoogle() {
   
                 $.ajax({
                     url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSf-rR6oA-GpEnm87pX6gkzT000UwmFptKjlqtyBrjpOZQvENQ/formResponse",
-          data: {"entry.108434410": field1, "entry.298366658": field2, "entry.188701767": field3, "entry.1457915949": field4,"entry.1004740384":field5,"entry.1818932139":field6,"entry.1992118352":field7,"entry.760041435":field8,"entry.1063320144":field9,"entry.1437699241":field10,"entry.1715401106":field11,"entry.120776746":field12,"entry.594659995":field13,"entry.1129033720":field14,"entry.1282616492":field15,"entry.273227491":field16},
+          data: {"entry.108434410": field1, "entry.298366658": field2, "entry.188701767": field3, "entry.1457915949": field4,"entry.1004740384":field5,"entry.1818932139":field6,"entry.1992118352":field7,"entry.760041435":field8,"entry.1063320144":field9,"entry.1437699241":field10,"entry.1715401106":field11,"entry.120776746":field12,"entry.594659995":field13,"entry.1129033720":field14,"entry.1282616492":field15,"entry.273227491":field16,"entry.829400571":field17,"entry.794840166":field18,"entry.234300428":field19,"entry.1300057424":field20,"entry.671767806":field21,"entry.1604056992":field22,"entry.1080296419":field23},
                     type: "POST",
                     dataType: "xml",
                     success: function(d)
